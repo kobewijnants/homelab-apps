@@ -1,0 +1,3 @@
+# values.yaml
+# This file can be used to toggle apps on/off in the future
+# e.g. enable_metallb: true
