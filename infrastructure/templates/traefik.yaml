@@ -19,7 +19,8 @@ spec:
           type: LoadBalancer # MetalLB will give this an IP
         ports:
           web:
-            redirectTo: websecure
+            redirectTo: 
+              port: websecure
           websecure:
             tls:
               enabled: true
